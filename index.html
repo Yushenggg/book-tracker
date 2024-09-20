@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <h1>The Book Store</h1>
+        <button id="addToggle">+</button>
+    </div>
+    <div class="content">
+        <div class="sidebar collapsed">
+            <h2>Add New Book</h2>
+            <input type="text" placeholder="Book Title" name="newTitle" id="newTitle">
+            <input type="text" placeholder="Author" name="newAuthor" id="newAuthor" >
+            <textarea name="description" id="newDesc" placeholder="Desctiption" rows="6"></textarea>
+            <input type="number" id="newPageNo" placeholder="Number of Pages">
+            <div class="inlineInput">
+                <label for="newCompleted">Completed</label>
+                <input type="checkbox" id="newCompleted">
+            </div>
+            <label for="color">Book Color</label>
+            <input type="color" name="newColor" id="newColor">
+            <button id="newSubmit">+</button>
+        </div>
+        <div class="bookshelf">
+            <div class="book">
+                <button class="deleteBook"></button>
+                <h2 class="bookStatus">Unread</h2>
+                <h2 class="bookRead">Pages Read:<br>0/167</h2>
+                <h3 class="bookTitle">Charlie and the Chocolate Factory</h3>
+                <h5 class="bookAuthor">Ronald Dahl</h5>
+                <p class="bookDesc">A wonderous story about Charlie in Willy Wonka's Factory with ALLOT MORE DESCRIPASDHOIAS HPOIASUHP DPIASUHD </p>
+                <div class="bookInputs">
+                    <input type="number" name="" id="" placeholder="Update Page">
+                    <button class="updateBtn"></button>
+                    <button class="toggleComplete"></button>
+                </div>
+            </div>
+  
+        </div>
+    </div>
+</body>
+</html>
