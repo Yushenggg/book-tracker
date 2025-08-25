@@ -8,11 +8,11 @@
     margin: 0;
 }
 :root{
-    --containerShadow: #264653;
-    --containerBackground:#2A9D8F;
-    --containerBorder: #583b05;
-    --siteBlack: #444444;
-    --siteWhite:#f5f5f5;
+    --containerShadow: #12343f;
+    --containerBackground:#1FA48A;
+    --containerBorder: #6b4a2f;
+    --siteBlack: #0f1720;
+    --siteWhite:#f8fafc;
 }
 
 body{
@@ -51,9 +51,9 @@ body{
     
     }
     button{
-        color: #fff;
+    color: #ffffff;
         background-color:unset;
-        font-size: 4em;
+    font-size: 2.2rem;
         font-weight: 1000;
         text-align: center;
         line-height: 0;
@@ -66,10 +66,10 @@ body{
         border: unset;
     }
     button:hover{
-        background-color: #00000022;
+    background-color: #ffffff10;
     }
     button:active{
-        background-color: #00000055;
+    background-color: #00000055;
         translate: 1px 1px;
         border: 1px white dashed;
     }
@@ -88,17 +88,17 @@ body{
     button{
         background-color: unset;
         align-self: center;
-        font-size: 3em;
+    font-size: 1.6rem;
         font-weight: 1000;
         aspect-ratio: 1/1;
-        color: var(--siteWhite);
+    color: var(--siteWhite);
         border: unset;
     }
     button:hover{
-        background-color: #00000022;
+    background-color: #ffffff10;
     }
     button:active{
-        background-color: #00000055;
+    background-color: #00000055;
         translate: 1px 1px;
         border: 1px white dashed;
     }
@@ -107,7 +107,7 @@ body{
         gap: 1em;
     }
 input{
-    font-size: 0.8em;
+    font-size: 1rem;
     font-family: Play,Arial, Helvetica, sans-serif;
 
 }
@@ -130,7 +130,7 @@ input{
 }
 textarea, textarea::placeholder{
     font-family: Play,Arial, Helvetica, sans-serif;
-    font-size: 0.8em;
+    font-size: 1rem;
     width: 100%;
 }
 
@@ -191,11 +191,11 @@ textarea, textarea::placeholder{
         background-image: url(./resources/icon/delete.svg)
     }
     button{
-        display: flex;
+    display: flex;
         justify-content: center;
         align-items: center;
-        background-color: #00000080;
-        border: #ffffff80 solid 2px;
+    background-color: #00000066;
+    border: #ffffff60 solid 2px;
         width: 25px;
         aspect-ratio: 1/1;
         padding: 1px;

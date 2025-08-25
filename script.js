@@ -101,7 +101,7 @@ class Book {
         this.documentRef.querySelector(".bookStatus").textContent=this.status ? "Completed" : "Unread"
     }
     delBook(){
-        alert("Delete this book from your library? ("+this.title+")")
+        confirm("Delete this book from your library? ("+this.title+")")
         let bookInLib = theLibrary.findIndex((e)=>e==this)
         this.documentRef.remove()
         theLibrary.pop(bookInLib)
